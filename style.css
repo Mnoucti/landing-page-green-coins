@@ -1,0 +1,347 @@
+/* Write some CSS below */
+body {
+    background-color: #ffffff;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass';   
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 38px;
+    letter-spacing: 4px;
+    text-align: center;
+    text-shadow: -0 -5px 20px #2C6239; 
+    text-overflow: ellipsis;
+ }
+
+h2 { 
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+h3 { 
+    font-weight: bold;
+    font-size: 20px;
+    color: #4AA45F;
+    text-align: center;
+    line-height: 0,5;
+    margin : 1; 
+}
+p { 
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #224B2C;
+}
+li { 
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1,3;
+  list-style-position: inside;
+  list-style-type: square;
+  color: #224B2C;
+}
+a {
+    text-decoration: none;
+}
+
+
+/* Arborescence */
+.arbo {
+    width: 1100px;
+    margin: 7px auto;
+  }
+  .cart-arbo {
+    padding: 5px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    word-spacing: 10px;
+  }
+.cart-arbo li {
+    list-style: none;
+    padding-left: 0px;
+    display: inline;
+  }
+.cart-arbo a {
+    color: #224B2C;
+  }
+.cart-arbo img {
+    height: 100px;
+}
+
+  .list {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 16px;
+  }
+
+/* Banner */
+.banner {
+    background-image: url(images/banner.png);
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0px;
+    text-align: center;
+  }
+
+/* Bouton container */
+  .container1 {
+    width: 500px;
+    margin: 30px auto;
+  }
+  .btn-green1 {
+    background-color:   #EAF6ED;
+    color: #224B2C;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    box-shadow: 0 5px 20px rgba(34, 75, 44, 0.5);
+  }
+.btn-box{
+    box-shadow: 0 5px 20px rgba(234, 246, 237, 0.5);   
+}
+  .btn-green1:hover {
+    background-color: #4AA45F;
+  }
+  .btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+  }
+  .btn a {
+    color: #224B2C;
+  }
+
+  .btn i:hover {
+    color: #224B2C;
+  }
+  .btn-green1 {
+    transition: 0.3s;
+  }
+  .btn-green1:hover {
+    transform:scale(1.1);
+  }
+
+  
+/* Section ne maquez pas */
+.container {
+    width: 1000px;
+    margin: 10px auto;
+    padding: 10px 20px;
+  }
+.cards-inline{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+  }
+.card-green {
+    background-color: #EAF6ED;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    margin: 8px;
+    border-radius: 5px;
+    text-align: center;
+  }
+.card-green li {
+    list-style: none;
+    padding-left: 0px;
+    display: inline;
+  }
+.card-green a {
+    box-shadow: 0 5px 10px rgba(34, 75, 44, 0.2);
+  }
+.card-green img {
+    height: 200px;
+}
+.btn-green2:hover {
+    color: #4AA45F;
+    font-size: 12px;
+  }
+.btn-green2 {
+        background-color:   #EAF6ED;
+        color: #224B2C;
+        border-radius: 10px;
+        padding: 10px 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        box-shadow: 0 10px 20px rgba(34, 75, 44, 0.5);
+        margin: 10px; 
+}
+
+.blink {
+    animation: blink 1s infinite;
+  }
+ @keyframes blink { 
+    0% { opacity:0; }
+    50% { opacity:1; } 
+    100% { opacity:0; }
+  }
+
+/* Section nos thématiques de formation */
+.banner1 {
+    background-image: url(images/banner1.png);
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0;
+    text-align: center;
+    opacity: 0,7;
+  }
+.banner2 {
+    background-image: url(images/banner2.png);
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0;
+    text-align: center;
+    opacity: 0,7;
+  }
+.cards-inline1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+  }
+
+.cart-section1 {
+    background-color: none;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    text-align: center;
+  }
+.cart-section1 img {
+    height: 200px;
+    width: 227px;
+}
+.cart-section1 a {
+    transform: translateX(10px);
+}
+.text-green {
+    color: #CEDFC5;
+}
+.img-arrondi {
+    border-radius: 20px;
+}
+/* Section nos experts*/
+.header-green {
+    color: #224B2C;
+}
+
+
+/* Section pourquoi green coin  */
+.banner3 {
+    background-color: #224B2C;
+    padding: 10px 0;
+    text-align: center;
+    opacity: 0,7;
+  }
+.cards-inline2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+  }
+.card-green2 {
+    background-color: none;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    text-align: center;
+  }
+.card-green2 img {
+    height: 200px;
+}
+.card-green2 {
+    transition: 0.3s;
+}
+.card-green2:hover{
+    transform: scale(1.2,1.2);
+}
+
+.text-green {
+    color: #CEDFC5;
+}
+/* carroussel*/
+
+.carroussel-image {
+    position: relative;
+    overflow: hidden;
+    width: 1000px;
+    margin: 10px auto;
+    padding: 100px 40px;
+  }
+.carroussel-image h2 {
+    color: #224B2C;
+}
+  
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 800%;
+    height: 100%;
+    display: flex;
+    transition: left 5s ease-in-out;
+    animation: scroll 50s linear infinite;
+  }
+  
+.slider img {
+    width: 5%;
+    height: 50%;
+    margin: 30px;
+  }
+  
+  @keyframes scroll {
+    0% { left: 0; }
+    100% { left: -700%; }
+  }
+
+
+/* Footer*/
+.cards-inline3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+  }
+.card-green3 {
+    background-color: none;
+    padding: 5px;
+    margin: 8px;
+    border-radius: 5px;
+  }
+#logo {
+    height: 100px;
+}
+.footer {
+    padding: 10px 0;
+    background-color: #DFEDD8;
+  }
+  .cart-arbo i {
+    text-shadow: #DFEDD8;
+    font-size: 30px;
+    color: #4AA45F;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 3px #224B2C
+  }
+  .cart-arbo i:hover {
+    color: #224B2C;
+    font-size: 50px;
+  }
+  
+  .footer p {
+    font-size: 16px;
+    color: #224B2C;
+    text-align: left;
+  }
+
+
+
+
+  
+
+
